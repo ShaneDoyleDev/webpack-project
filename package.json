@@ -1,0 +1,27 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "Practise Webpack Build Setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaneDoyleDev/webpack-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaneDoyleDev/webpack-project/issues"
+  },
+  "homepage": "https://github.com/ShaneDoyleDev/webpack-project#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
