@@ -1,3 +1,7 @@
+import "./styles/style.css";
+
+if (module.hot) module.hot.accept();
+
 const elvenShieldRecipe = {
   leatherStrips: 2,
   ironIngot: 1,
