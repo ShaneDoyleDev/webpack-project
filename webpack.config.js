@@ -6,4 +6,8 @@ if (process.env.NODE_ENV === "production") {
 
 module.exports = {
   mode: mode,
+  devServer: {
+    static: "./dist",
+    hot: true,
+  },
 };
